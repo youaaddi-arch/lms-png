@@ -72,7 +72,13 @@ def cmd_build(args: argparse.Namespace) -> None:
     program = load_program(args.document, title=args.title)
     # En dry-run, build_course n'appelle jamais le client : on en passe un factice.
     client = _DummyClient() if args.dry_run else _make_client()
-    result = build_course(client, program, args.category, dry_run=args.dry_run)
+    result = build_course(
+        client,
+        program,
+        args.category,
+        dry_run=args.dry_run,
+        content_mode=args.mode,
+    )
 
     print(f"Cours : {program.title}")
     print(f"  shortname : {result.shortname}")
@@ -117,6 +123,13 @@ def main(argv: list[str] | None = None) -> None:
     )
     p_build.add_argument(
         "--dry-run", action="store_true", help="Simuler sans écrire sur Moodle"
+    )
+    p_build.add_argument(
+        "--mode",
+        choices=["summary", "sections"],
+        default="summary",
+        help="summary = tout dans la présentation (MoodleCloud) ; "
+        "sections = une section par module (nécessite local_wsmanagesections)",
     )
     p_build.set_defaults(func=cmd_build)
 

@@ -33,13 +33,19 @@ Outil en ligne de commande qui transforme un **programme de formation**
    `Administration du site > Serveur > Services web > Gérer les jetons`.
 5. Vérifier que l'utilisateur du token a les **droits** de créer cours/catégories.
 
-### Plugin requis pour remplir les sections
+### Deux modes de remplissage du contenu
 
 L'API « core » de Moodle crée les cours et catégories mais **ne remplit pas le
-contenu des sections**. On utilise pour cela le plugin gratuit
-[`local_wsmanagesections`](https://moodle.org/plugins/local_wsmanagesections).
-S'il n'est pas installé, l'outil **crée quand même le cours** mais affiche un
-avertissement pour chaque section non remplie.
+contenu des sections**. D'où deux modes (`--mode`) :
+
+- **`summary` (défaut, compatible MoodleCloud)** : tout le programme (objectifs,
+  jours, modules, modalités…) est placé dans la **présentation du cours**, avec
+  les seules fonctions core. Aucun plugin requis.
+- **`sections`** : une **section par module** (titre + contenu). Nécessite le
+  plugin gratuit
+  [`local_wsmanagesections`](https://moodle.org/plugins/local_wsmanagesections),
+  donc un Moodle **auto-hébergé** (⚠️ **impossible sur MoodleCloud**, qui
+  n'autorise pas les plugins tiers).
 
 ## 3. Installation locale
 
