@@ -100,6 +100,20 @@ def cmd_export(args: argparse.Namespace) -> None:
         print(f"  ⚠️  {mismatch}")
 
 
+def cmd_mbz(args: argparse.Namespace) -> None:
+    from .mbz import write_mbz
+
+    program = load_program(args.document, title=args.title)
+    path = write_mbz(program, args.out)
+    print(f"Fichier de sauvegarde Moodle écrit : {path}")
+    print(f"  Cours    : {program.title}")
+    print(f"  Sections : {len(program.modules)} (+ section générale)")
+    print("  Importe-le dans Moodle : Cours → Restaurer → déposer ce fichier.")
+    mismatch = program.hours_mismatch()
+    if mismatch:
+        print(f"  ⚠️  {mismatch}")
+
+
 def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(
         prog="moodle_lms",
@@ -138,6 +152,14 @@ def main(argv: list[str] | None = None) -> None:
     p_exp.add_argument("--title", help="Forcer le titre du cours")
     p_exp.add_argument("--out", default="out/preview.html", help="Fichier de sortie")
     p_exp.set_defaults(func=cmd_export)
+
+    p_mbz = sub.add_parser(
+        "mbz", help="Génère un fichier de sauvegarde Moodle (.mbz) à restaurer"
+    )
+    p_mbz.add_argument("document", help="Chemin du programme (.json/.pdf/.docx/.txt)")
+    p_mbz.add_argument("--title", help="Forcer le titre du cours")
+    p_mbz.add_argument("--out", default="out/cours.mbz", help="Fichier .mbz de sortie")
+    p_mbz.set_defaults(func=cmd_mbz)
 
     args = parser.parse_args(argv)
     args.func(args)
