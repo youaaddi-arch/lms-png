@@ -11,6 +11,33 @@ from dataclasses import dataclass, field
 
 
 @dataclass
+class Answer:
+    """Une réponse possible à une question de quiz."""
+
+    text: str
+    correct: bool = False
+    feedback: str = ""
+
+
+@dataclass
+class Question:
+    """Une question de quiz (choix multiple ou vrai/faux)."""
+
+    text: str
+    answers: list[Answer] = field(default_factory=list)
+    # 'multichoice' (une bonne réponse), 'multichoice_multi' (plusieurs),
+    # ou 'truefalse'.
+    qtype: str = "multichoice"
+    name: str = ""
+    general_feedback: str = ""
+
+    @property
+    def single(self) -> bool:
+        """Vrai si une seule bonne réponse (choix unique)."""
+        return self.qtype != "multichoice_multi"
+
+
+@dataclass
 class Module:
     """Un module / chapitre / section d'une formation."""
 
@@ -20,6 +47,8 @@ class Module:
     bullets: list[str] = field(default_factory=list)
     # Durée du module en heures (ex: 7.0 pour un jour de 7h), si connue.
     hours: float | None = None
+    # Questions de quiz rattachées au module.
+    questions: list[Question] = field(default_factory=list)
 
     def display_title(self) -> str:
         """Titre de section, avec la durée si elle est renseignée."""
@@ -57,6 +86,13 @@ class Program:
     shortname: str | None = None
     # Durée totale annoncée (en heures), pour contrôle de cohérence.
     total_hours: float | None = None
+
+    def all_questions(self) -> list[Question]:
+        """Toutes les questions de quiz du programme, tous modules confondus."""
+        out: list[Question] = []
+        for module in self.modules:
+            out.extend(module.questions)
+        return out
 
     def modules_hours(self) -> float | None:
         """Somme des heures des modules, ou None si aucune n'est renseignée."""

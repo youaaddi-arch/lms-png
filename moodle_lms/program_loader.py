@@ -41,7 +41,7 @@ import json
 from pathlib import Path
 from typing import Any
 
-from .models import Module, Program
+from .models import Answer, Module, Program, Question
 
 
 def _esc(text: str) -> str:
@@ -95,6 +95,52 @@ def _module_html(mod: dict[str, Any]) -> str:
     return "\n".join(parts)
 
 
+_TYPE_MAP = {
+    "mc": "multichoice",
+    "qcu": "multichoice",
+    "multichoice": "multichoice",
+    "mcm": "multichoice_multi",
+    "qcm": "multichoice_multi",
+    "multichoice_multi": "multichoice_multi",
+    "tf": "truefalse",
+    "vf": "truefalse",
+    "truefalse": "truefalse",
+}
+
+
+def _parse_questions(raw_quiz: list[dict[str, Any]]) -> list[Question]:
+    """Transforme la liste 'quiz' du JSON en objets Question."""
+    questions: list[Question] = []
+    for item in raw_quiz:
+        qtype = _TYPE_MAP.get(item.get("type", "mc"), "multichoice")
+        text = item.get("q") or item.get("question", "")
+        if qtype == "truefalse":
+            correct = bool(item.get("answer", item.get("correct", True)))
+            answers = [
+                Answer("true", correct, item.get("feedback_true", "")),
+                Answer("false", not correct, item.get("feedback_false", "")),
+            ]
+        else:
+            answers = [
+                Answer(
+                    text=a["text"],
+                    correct=bool(a.get("correct", False)),
+                    feedback=a.get("feedback", ""),
+                )
+                for a in item.get("answers", [])
+            ]
+        questions.append(
+            Question(
+                text=text,
+                answers=answers,
+                qtype=qtype,
+                name=item.get("name", ""),
+                general_feedback=item.get("feedback", ""),
+            )
+        )
+    return questions
+
+
 def load_json(path: str | Path) -> Program:
     """Charge un programme JSON et renvoie un `Program` enrichi."""
     data = json.loads(Path(path).read_text(encoding="utf-8"))
@@ -119,6 +165,7 @@ def load_json(path: str | Path) -> Program:
             content_html=_module_html(mod),
             bullets=mod.get("bullets", []),
             hours=mod.get("hours"),
+            questions=_parse_questions(mod.get("quiz", [])),
         )
         for mod in data.get("modules", [])
     ]

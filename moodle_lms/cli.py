@@ -114,6 +114,17 @@ def cmd_mbz(args: argparse.Namespace) -> None:
         print(f"  ⚠️  {mismatch}")
 
 
+def cmd_quiz(args: argparse.Namespace) -> None:
+    from .quiz_xml import write_quiz_xml
+
+    program = load_program(args.document, title=args.title)
+    n = len(program.all_questions())
+    path = write_quiz_xml(program, args.out)
+    print(f"Banque de questions Moodle XML écrite : {path}")
+    print(f"  Questions : {n}")
+    print("  Importe-la : Banque de questions → Importer → « Format XML Moodle ».")
+
+
 def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(
         prog="moodle_lms",
@@ -160,6 +171,14 @@ def main(argv: list[str] | None = None) -> None:
     p_mbz.add_argument("--title", help="Forcer le titre du cours")
     p_mbz.add_argument("--out", default="out/cours.mbz", help="Fichier .mbz de sortie")
     p_mbz.set_defaults(func=cmd_mbz)
+
+    p_quiz = sub.add_parser(
+        "quiz", help="Génère une banque de questions au format Moodle XML"
+    )
+    p_quiz.add_argument("document", help="Chemin du programme (.json)")
+    p_quiz.add_argument("--title", help="Forcer le titre du cours")
+    p_quiz.add_argument("--out", default="out/quiz.xml", help="Fichier XML de sortie")
+    p_quiz.set_defaults(func=cmd_quiz)
 
     args = parser.parse_args(argv)
     args.func(args)

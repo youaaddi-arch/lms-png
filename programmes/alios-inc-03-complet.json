@@ -1,0 +1,587 @@
+{
+  "title": "Diversité et inclusion en entreprise",
+  "shortname": "alios-inc-03-complet",
+  "category_name": "Marque Manque",
+  "ref": "INC-03",
+  "duration": "2 jours · 14h",
+  "total_hours": 14,
+  "price_ht": "1 290 €",
+  "tagline": "Construire une politique diversité & inclusion efficace, conforme et durable, qui enrichit la performance et l'engagement de vos équipes.",
+  "objectives": [
+    "Maîtriser le vocabulaire de la diversité, de l'inclusion, de l'équité et de l'appartenance",
+    "Comprendre les enjeux business et sociétaux de la D&I et savoir les argumenter",
+    "Connaître les 26 critères de discrimination et les obligations légales chiffrées",
+    "Identifier les principaux biais cognitifs et leurs effets en contexte RH",
+    "Détecter et corriger les biais dans les process de recrutement, d'évaluation et de rémunération",
+    "Construire une stratégie D&I pragmatique, portée par la direction",
+    "Mesurer et piloter la démarche avec des indicateurs conformes au cadre légal",
+    "Élaborer un plan d'action D&I personnalisé et l'ancrer dans la durée"
+  ],
+  "public": "Responsables RH, responsables ou référents diversité & inclusion, managers, dirigeants, membres du CSE, chefs de projet transformation et toute personne impliquée dans la politique RH ou managériale.",
+  "prerequisites": "Aucun prérequis technique. Une implication dans la politique RH, managériale ou de transformation de l'entreprise facilite l'appropriation des outils.",
+  "modalities": [
+    "Apports théoriques structurés et illustrés d'exemples d'entreprises engagées en D&I",
+    "Études de cas concrets et ateliers pratiques en sous-groupes",
+    "Tests de biais et jeux de rôle (CV anonymisés, grilles d'entretien)",
+    "Quiz interactifs d'auto-évaluation à la fin de chaque séance",
+    "Kit D&I remis (indicateurs, modèles de plan d'action, grilles d'entretien structurées)",
+    "Accès à la plateforme Alios pendant 90 jours après la formation"
+  ],
+  "evaluation": [
+    "Test de positionnement en amont de la formation",
+    "Quiz d'auto-évaluation à la fin de chaque séance (QCM, vrai/faux)",
+    "Ateliers et cas pratiques évalués tout au long des deux jours",
+    "Plan d'action D&I final évalué individuellement par le formateur",
+    "Attestation de fin de formation",
+    "Évaluation à chaud (fin de session) et à froid (J+60)"
+  ],
+  "means": [
+    "Salle équipée (vidéoprojecteur, paperboard, connexion internet)",
+    "Kit D&I complet remis à chaque participant (modèles, grilles, indicateurs)",
+    "Ressources documentaires AFMD, Défenseur des droits, AFNOR, études McKinsey et BCG",
+    "Plateforme Alios accessible 90 jours pour révision et quiz",
+    "Accessibilité PSH : formations accessibles aux personnes en situation de handicap ; adaptations possibles sur demande à notre référent handicap au moins 15 jours avant le démarrage."
+  ],
+  "modules": [
+    {
+      "title": "Séance 1 — Diversité & inclusion : les fondamentaux",
+      "hours": 1.5,
+      "intro": "Cette première séance pose le vocabulaire commun, indispensable pour éviter les malentendus qui parasitent souvent les démarches D&I. On distingue clairement quatre notions trop souvent confondues, puis on situe la D&I dans son contexte sociétal et économique. L'objectif est de doter chaque participant d'un langage partagé, premier livrable concret de toute démarche réussie. Cette base conceptuelle conditionne la qualité de tout le travail des séances suivantes.",
+      "blocks": [
+        {
+          "title": "Quatre notions à ne pas confondre",
+          "bullets": [
+            "Diversité : la variété des profils présents dans l'organisation, le « qui » (genre, âge, origine, handicap, parcours, etc.).",
+            "Inclusion : la capacité de l'organisation à faire en sorte que chacun se sente respecté et puisse contribuer pleinement, le « comment on traite ».",
+            "Équité : adapter les moyens pour compenser les inégalités de départ, à distinguer de l'égalité qui donne strictement la même chose à tous.",
+            "Appartenance (belonging) : le sentiment d'être à sa place et accepté tel que l'on est, stade le plus abouti d'une culture inclusive."
+          ]
+        },
+        {
+          "title": "L'image de référence",
+          "text": "On résume souvent ces notions par une métaphore devenue classique : la diversité, c'est être invité à la fête ; l'inclusion, c'est être invité à danser ; l'appartenance, c'est pouvoir choisir la musique. Cette image aide à comprendre qu'une entreprise peut être très diverse mais peu inclusive. Recruter des profils variés ne suffit pas si la culture ne leur permet pas de s'exprimer, de progresser et d'influencer les décisions. À l'inverse, une équipe peu diverse peut développer une culture très inclusive envers les quelques profils minoritaires présents. Diversité et inclusion sont donc deux chantiers distincts, complémentaires mais non substituables. La distinction équité/égalité est tout aussi structurante : proposer le même aménagement de poste à tous n'est pas équitable si les besoins diffèrent. Comprendre ces nuances évite les erreurs de conception les plus fréquentes dans les politiques RH."
+        },
+        {
+          "title": "Le contexte sociétal et générationnel",
+          "text": "La D&I s'inscrit dans une évolution profonde des attentes sociales. Les nouvelles générations arrivant sur le marché du travail accordent une importance croissante aux engagements de leur employeur en matière d'égalité, d'inclusion et de lutte contre les discriminations. Le Défenseur des droits rappelle régulièrement que l'emploi reste l'un des domaines où les réclamations pour discrimination sont les plus nombreuses. Les entreprises évoluent par ailleurs dans un cadre où la responsabilité sociétale (RSE) est de plus en plus scrutée par les clients, les investisseurs et les pouvoirs publics. La D&I n'est donc plus une option périphérique mais une composante de la stratégie d'entreprise et de sa réputation. Cette pression externe se combine à une exigence interne d'équité portée par les salariés eux-mêmes."
+        },
+        {
+          "title": "Exemple concret",
+          "text": "Une PME industrielle recrute 40 % de femmes mais aucune n'accède au comité de direction, et le turnover féminin y est deux fois supérieur à celui des hommes. La diversité est présente à l'entrée, mais l'inclusion fait défaut dans le parcours : plafond de verre, réunions tardives incompatibles avec la vie familiale, humour de couloir excluant. Ce décalage entre une diversité affichée et une inclusion réelle défaillante est précisément ce que la formation apprend à diagnostiquer puis à corriger. L'analyse du parcours complet, et non du seul recrutement, est la clé."
+        },
+        {
+          "title": "Exercice en sous-groupes (20 min)",
+          "text": "Chaque groupe reformule les quatre notions (diversité, inclusion, équité, appartenance) avec ses propres mots, puis identifie un exemple vécu dans son organisation pour chacune. Les groupes notent également une situation où la diversité existait sans inclusion. Restitution et mise en commun au paperboard, avec discussion guidée par le formateur sur les confusions les plus fréquentes."
+        },
+        {
+          "title": "À retenir",
+          "bullets": [
+            "Diversité = présence ; inclusion = traitement ; équité = ajustement des moyens ; appartenance = ressenti d'être à sa place.",
+            "La diversité sans inclusion produit de la frustration, du désengagement et du turnover.",
+            "Équité n'est pas égalité : l'équité compense les inégalités de départ.",
+            "Le langage commun est le premier livrable d'une démarche D&I réussie."
+          ]
+        }
+      ],
+      "quiz": [
+        {"type":"mc","q":"Quelle notion décrit le sentiment d'être à sa place et accepté tel que l'on est ?","answers":[
+          {"text":"La diversité","correct":false,"feedback":"La diversité désigne la variété des profils présents, pas un ressenti."},
+          {"text":"L'appartenance (belonging)","correct":true,"feedback":"Exact : l'appartenance est le stade le plus abouti, le sentiment d'être à sa place."},
+          {"text":"L'équité","correct":false,"feedback":"L'équité concerne l'ajustement des moyens, pas le ressenti d'appartenance."}
+        ]},
+        {"type":"tf","q":"Équité et égalité sont deux notions synonymes.","answer":false,"feedback_true":"Non : l'égalité donne la même chose à tous, l'équité ajuste les moyens selon les besoins.","feedback_false":"Exact : l'équité compense les inégalités de départ, l'égalité traite tout le monde de façon identique."},
+        {"type":"tf","q":"Recruter des profils variés garantit automatiquement une organisation inclusive.","answer":false,"feedback_true":"Non : la diversité concerne la présence, l'inclusion concerne le traitement et le parcours.","feedback_false":"Exact : on peut être divers à l'entrée et peu inclusif dans le parcours."},
+        {"type":"qcm","q":"Parmi ces affirmations, lesquelles sont justes ?","answers":[
+          {"text":"La diversité concerne le « qui » présent dans l'organisation","correct":true,"feedback":"Exact : c'est la variété des profils."},
+          {"text":"L'inclusion concerne la manière dont chacun est traité et peut contribuer","correct":true,"feedback":"Exact : c'est le « comment on traite »."},
+          {"text":"La diversité sans inclusion suffit à fidéliser les talents","correct":false,"feedback":"Faux : sans inclusion, la diversité génère frustration et turnover."}
+        ]},
+        {"type":"mc","q":"Dans la métaphore de la fête, à quoi correspond l'inclusion ?","answers":[
+          {"text":"Être invité à la fête","correct":false,"feedback":"C'est la diversité : être présent."},
+          {"text":"Être invité à danser","correct":true,"feedback":"Exact : l'inclusion, c'est pouvoir participer pleinement."},
+          {"text":"Pouvoir choisir la musique","correct":false,"feedback":"C'est l'appartenance : influencer les décisions."}
+        ]},
+        {"type":"tf","q":"Le langage commun autour de la D&I est un préalable utile à toute démarche structurée.","answer":true,"feedback_true":"Exact : partager les définitions évite de nombreux malentendus et constitue le premier livrable.","feedback_false":"Au contraire : sans vocabulaire partagé, les démarches D&I se heurtent vite à des malentendus."}
+      ]
+    },
+    {
+      "title": "Séance 2 — Les enjeux business de la D&I",
+      "hours": 1.5,
+      "intro": "La D&I n'est pas qu'une question d'image ou de conformité : c'est un levier de performance documenté par de nombreuses études. Cette séance relie la D&I aux résultats de l'entreprise pour aider les participants à convaincre leur direction et à embarquer les managers. Elle insiste aussi sur la rigueur méthodologique nécessaire pour porter un discours crédible. L'enjeu est de transformer la D&I d'un sujet perçu comme moral en un sujet de pilotage stratégique.",
+      "blocks": [
+        {
+          "title": "Les quatre leviers de performance",
+          "bullets": [
+            "Performance financière : l'étude McKinsey « Diversity Wins » établit une corrélation entre la mixité des comités de direction et une probabilité supérieure de rentabilité au-dessus de la médiane du secteur.",
+            "Innovation : des équipes diverses confrontent davantage de points de vue et produisent des solutions plus créatives, comme le soulignent les travaux du BCG sur le lien entre diversité du management et revenus liés à l'innovation.",
+            "Attractivité et marque employeur : les jeunes générations choisissent leur employeur aussi sur ses engagements en matière de diversité et d'inclusion.",
+            "Fidélisation et engagement : un environnement inclusif réduit le turnover et l'absentéisme, et donc les coûts de remplacement et de désorganisation."
+          ]
+        },
+        {
+          "title": "Chiffrer le coût de la non-inclusion",
+          "text": "Pour convaincre une direction, le levier le plus parlant est souvent le coût caché de la non-inclusion. Le remplacement d'un collaborateur qualifié représente fréquemment plusieurs mois de salaire une fois cumulés le recrutement, l'intégration et la perte de productivité durant la montée en compétence. Si une population se sent exclue et part deux fois plus que la moyenne, le surcoût devient rapidement significatif. À cela s'ajoutent le coût des contentieux prud'homaux, l'impact réputationnel d'une condamnation pour discrimination et la difficulté à répondre à des appels d'offres exigeant une politique RSE crédible. Traduire la D&I en euros, à partir des données réelles de l'entreprise, est souvent plus convaincant que d'invoquer des grands principes. Cette approche déplace le débat du registre moral vers le registre économique, plus audible en CODIR."
+        },
+        {
+          "title": "Nuance méthodologique indispensable",
+          "text": "Corrélation n'est pas causalité : les entreprises performantes sont aussi celles qui ont les moyens et la maturité d'investir en D&I, ce qui peut expliquer une partie du lien observé. Le message juste à porter en interne est donc que la D&I est un facteur favorable de performance, et non qu'elle garantit mécaniquement la performance. Cette honnêteté intellectuelle renforce votre crédibilité auprès de directions exigeantes et vous évite d'être pris en défaut. Mieux vaut un argumentaire prudent et solide qu'une promesse spectaculaire mais fragile. La rigueur sur les sources est elle-même un gage de sérieux de la démarche."
+        },
+        {
+          "title": "Cas pratique — bâtir l'argumentaire pour son CODIR",
+          "text": "À partir de la situation réelle de votre entreprise, identifiez le levier le plus parlant pour votre direction : coût du turnover, difficultés de recrutement sur des métiers en tension, exigences RSE des clients ou appels d'offres. Construisez ensuite un argument chiffré d'une page, en utilisant vos propres données plutôt que des statistiques génériques. Le formateur aide chaque participant à tester la solidité de son argument."
+        },
+        {
+          "title": "À retenir",
+          "bullets": [
+            "Quatre leviers business : performance financière, innovation, attractivité, fidélisation.",
+            "Chiffrez avec VOS données (coût du turnover, du recrutement, des contentieux) plutôt qu'avec des statistiques génériques.",
+            "Restez rigoureux : il s'agit d'une corrélation favorable, pas d'une promesse magique.",
+            "Parlez le langage de votre direction pour transformer la D&I en sujet de pilotage."
+          ]
+        }
+      ],
+      "quiz": [
+        {"type":"qcm","q":"Quels sont des leviers business de la D&I reconnus ?","answers":[
+          {"text":"L'innovation et la créativité des équipes","correct":true,"feedback":"Exact : la confrontation de points de vue variés nourrit l'innovation."},
+          {"text":"L'attractivité et la marque employeur","correct":true,"feedback":"Exact : les engagements D&I pèsent dans le choix de l'employeur."},
+          {"text":"La réduction automatique des charges sociales","correct":false,"feedback":"Faux : la D&I n'agit pas sur les charges sociales."}
+        ]},
+        {"type":"tf","q":"La D&I garantit mécaniquement une meilleure rentabilité de l'entreprise.","answer":false,"feedback_true":"Non : les études montrent une corrélation favorable, pas une causalité garantie.","feedback_false":"Exact : il s'agit d'une corrélation favorable, à présenter avec rigueur."},
+        {"type":"mc","q":"Quelle étude est une référence sur le lien entre mixité des comités de direction et rentabilité ?","answers":[
+          {"text":"McKinsey, « Diversity Wins »","correct":true,"feedback":"Exact : c'est une référence majeure sur ce sujet."},
+          {"text":"Le baromètre annuel de l'URSSAF","correct":false,"feedback":"Non : l'URSSAF ne publie pas d'étude sur ce lien."},
+          {"text":"Le rapport climat du GIEC","correct":false,"feedback":"Non : le GIEC traite du climat, pas de la D&I en entreprise."}
+        ]},
+        {"type":"mc","q":"Quel argument est généralement le plus convaincant pour un CODIR ?","answers":[
+          {"text":"Un grand principe moral sur l'égalité","correct":false,"feedback":"Les principes seuls convainquent rarement une direction orientée résultats."},
+          {"text":"Le coût chiffré de la non-inclusion à partir des données de l'entreprise","correct":true,"feedback":"Exact : traduire la D&I en euros avec ses propres données est très convaincant."},
+          {"text":"Une comparaison avec un concurrent sans chiffres","correct":false,"feedback":"Sans chiffres, l'argument reste fragile."}
+        ]},
+        {"type":"tf","q":"Le coût de remplacement d'un collaborateur qualifié peut représenter plusieurs mois de salaire.","answer":true,"feedback_true":"Exact : recrutement, intégration et perte de productivité s'additionnent.","feedback_false":"Si : une fois tous les coûts cumulés, le remplacement est souvent très élevé."},
+        {"type":"qcm","q":"Pourquoi insister sur la nuance corrélation/causalité ?","answers":[
+          {"text":"Pour renforcer la crédibilité de l'argumentaire","correct":true,"feedback":"Exact : la rigueur protège d'être pris en défaut."},
+          {"text":"Pour éviter de promettre des résultats non garantis","correct":true,"feedback":"Exact : mieux vaut un message prudent et solide."},
+          {"text":"Parce que la D&I n'a aucun effet sur la performance","correct":false,"feedback":"Faux : la D&I est un facteur favorable, même si elle ne garantit rien à elle seule."}
+        ]}
+      ]
+    },
+    {
+      "title": "Séance 3 — Cadre légal : les 26 critères et les obligations",
+      "hours": 2.0,
+      "intro": "Connaître le cadre légal protège l'entreprise et structure l'action. Cette séance couvre les critères de discrimination prohibés par le Code pénal et le Code du travail, les obligations chiffrées applicables selon l'effectif, les démarches de labellisation volontaires et les risques encourus en cas de manquement. Le droit français est dense en la matière : l'objectif n'est pas d'en faire des juristes, mais de leur donner les repères opérationnels pour sécuriser les pratiques RH.",
+      "blocks": [
+        {
+          "title": "Les 26 critères de discrimination prohibés",
+          "text": "La loi française prohibe toute distinction défavorable fondée sur l'un des 26 critères listés par le Code pénal et le Code du travail. Les connaître permet de sécuriser le recrutement, l'évaluation, la promotion et plus largement toutes les décisions affectant la vie professionnelle. Une distinction n'est licite que si elle repose sur une exigence professionnelle essentielle, déterminante et proportionnée.",
+          "bullets": [
+            "Origine, sexe, situation de famille, grossesse, apparence physique.",
+            "Patronyme, lieu de résidence, domiciliation bancaire, état de santé, handicap.",
+            "Caractéristiques génétiques, mœurs, orientation sexuelle, identité de genre, âge.",
+            "Opinions politiques, activités syndicales, appartenance vraie ou supposée à une ethnie, une nation, une prétendue race ou une religion.",
+            "Capacité à s'exprimer dans une autre langue que le français, perte d'autonomie, vulnérabilité économique, ainsi que les opinions philosophiques et les convictions."
+          ]
+        },
+        {
+          "title": "Les obligations chiffrées selon l'effectif",
+          "bullets": [
+            "Index de l'égalité professionnelle F/H : obligatoire dès 50 salariés, sous la forme d'une note sur 100 calculée à partir d'indicateurs (écart de rémunération, augmentations, promotions, retour de congé maternité, hautes rémunérations) et à publier chaque année.",
+            "OETH (obligation d'emploi des travailleurs handicapés) : taux de 6 % de l'effectif dès 20 salariés, à défaut une contribution est versée à l'Agefiph (au FIPHFP dans la fonction publique).",
+            "Égalité salariale : le principe « à travail égal, salaire égal » s'impose à tout employeur quel que soit l'effectif.",
+            "BDESE et négociations obligatoires sur l'égalité professionnelle dans les entreprises dotées de représentants du personnel."
+          ]
+        },
+        {
+          "title": "Labels et démarches volontaires",
+          "bullets": [
+            "Label Diversité (délivré par l'AFNOR) : engagement global sur la prévention des discriminations et la promotion de la diversité, audité régulièrement.",
+            "Label Égalité professionnelle entre les femmes et les hommes : reconnaît les bonnes pratiques en matière de mixité.",
+            "Ces labels ne sont pas obligatoires mais sécurisent et valorisent la démarche auprès des salariés, des candidats, des clients et des donneurs d'ordre."
+          ]
+        },
+        {
+          "title": "Risques et sanctions",
+          "text": "La discrimination est un délit pénal. Elle est punie de jusqu'à 3 ans d'emprisonnement et 45 000 € d'amende pour une personne physique, montant porté à 225 000 € pour une personne morale, sans compter les dommages et intérêts prud'homaux et l'atteinte à la réputation de l'entreprise. Le Défenseur des droits peut être saisi et mener des enquêtes. Le testing (envoi de candidatures comparables ne différant que par un critère) et l'action de groupe rendent ces risques très concrets et facilitent la preuve. En matière de discrimination, la charge de la preuve est aménagée : dès lors que le salarié présente des éléments laissant supposer une discrimination, c'est à l'employeur de démontrer que sa décision repose sur des éléments objectifs étrangers à toute discrimination."
+        },
+        {
+          "title": "Données interdites et RGPD",
+          "text": "Point essentiel : en France, la collecte de données relatives à l'origine ethnique ou à la prétendue « race » est interdite, y compris pour mesurer la diversité. Les données sensibles (santé, orientation sexuelle, opinions, appartenance syndicale) bénéficient d'une protection renforcée par le RGPD. Le pilotage de la diversité s'appuie donc sur des critères licites (genre, âge, handicap) et sur des enquêtes de ressenti anonymes conformes au RGPD. Ignorer cette règle expose l'entreprise à un double risque, pénal et de protection des données."
+        },
+        {
+          "title": "Cas pratique — analyse d'une offre d'emploi",
+          "text": "À partir d'une offre d'emploi fournie, les participants repèrent les formulations potentiellement discriminantes : « jeune équipe dynamique » (âge), « parfaitement bilingue » sans nécessité réelle (origine, langue), photo exigée, mention d'une mobilité incompatible avec une situation de famille. Ils réécrivent ensuite l'offre de manière neutre, centrée sur les compétences réellement requises pour le poste."
+        },
+        {
+          "title": "À retenir",
+          "bullets": [
+            "26 critères de discrimination prohibés : la vigilance porte sur tout le cycle RH.",
+            "Index F/H dès 50 salariés et OETH (6 %) dès 20 salariés sont des obligations chiffrées à ne pas négliger.",
+            "La discrimination est un délit : jusqu'à 3 ans, 45 000 € (personne physique) et 225 000 € (personne morale).",
+            "La collecte de l'origine ethnique est interdite ; le RGPD protège les données sensibles."
+          ]
+        }
+      ],
+      "quiz": [
+        {"type":"mc","q":"À partir de quel effectif l'index de l'égalité professionnelle F/H est-il obligatoire ?","answers":[
+          {"text":"20 salariés","correct":false,"feedback":"Non : 20 salariés correspond au seuil de l'OETH, pas de l'index F/H."},
+          {"text":"50 salariés","correct":true,"feedback":"Exact : l'index égalité F/H est obligatoire dès 50 salariés."},
+          {"text":"250 salariés","correct":false,"feedback":"Non : le seuil est de 50 salariés."}
+        ]},
+        {"type":"mc","q":"Quel est le taux d'emploi prévu par l'OETH dès 20 salariés ?","answers":[
+          {"text":"3 %","correct":false,"feedback":"Non, le taux légal est plus élevé."},
+          {"text":"6 %","correct":true,"feedback":"Exact : 6 % de l'effectif, à défaut une contribution à l'Agefiph."},
+          {"text":"10 %","correct":false,"feedback":"Non, le taux légal est de 6 %."}
+        ]},
+        {"type":"tf","q":"En France, une entreprise peut collecter des données sur l'origine ethnique de ses salariés pour mesurer la diversité.","answer":false,"feedback_true":"Non : la collecte de données sur l'origine ethnique ou la prétendue race est interdite en France.","feedback_false":"Exact : cette collecte est interdite ; on pilote via le genre, l'âge, le handicap et le ressenti anonyme."},
+        {"type":"mc","q":"Quelle est l'amende maximale encourue par une personne morale pour discrimination ?","answers":[
+          {"text":"45 000 €","correct":false,"feedback":"45 000 € est le montant pour une personne physique."},
+          {"text":"225 000 €","correct":true,"feedback":"Exact : l'amende est portée à 225 000 € pour une personne morale."},
+          {"text":"500 000 €","correct":false,"feedback":"Non : le maximum pour une personne morale est de 225 000 €."}
+        ]},
+        {"type":"qcm","q":"Parmi ces critères, lesquels font partie des 26 critères de discrimination prohibés ?","answers":[
+          {"text":"L'âge","correct":true,"feedback":"Exact : l'âge est un critère prohibé."},
+          {"text":"Le lieu de résidence","correct":true,"feedback":"Exact : le lieu de résidence figure parmi les critères."},
+          {"text":"La performance individuelle mesurée objectivement","correct":false,"feedback":"Non : évaluer la performance sur des critères objectifs est licite."}
+        ]},
+        {"type":"tf","q":"En matière de discrimination, la charge de la preuve est aménagée en faveur du salarié.","answer":true,"feedback_true":"Exact : si le salarié présente des éléments laissant supposer une discrimination, l'employeur doit prouver l'objectivité de sa décision.","feedback_false":"Si : le droit aménage la charge de la preuve pour faciliter l'action du salarié."},
+        {"type":"mc","q":"Quel organisme délivre le label Diversité ?","answers":[
+          {"text":"L'AFNOR","correct":true,"feedback":"Exact : le label Diversité est délivré par l'AFNOR."},
+          {"text":"Le Défenseur des droits","correct":false,"feedback":"Non : le Défenseur des droits traite les réclamations mais ne délivre pas ce label."},
+          {"text":"L'Agefiph","correct":false,"feedback":"Non : l'Agefiph gère la contribution liée à l'emploi des travailleurs handicapés."}
+        ]}
+      ]
+    },
+    {
+      "title": "Séance 4 — Biais cognitifs : comprendre",
+      "hours": 2.0,
+      "intro": "La plupart des discriminations en entreprise ne sont pas intentionnelles : elles résultent de biais cognitifs automatiques qui faussent nos jugements à notre insu. Comprendre leur mécanique est la condition préalable pour les neutraliser. Cette séance dédramatise le sujet en montrant que les biais sont universels, puis elle outille les participants pour repérer les plus fréquents en contexte RH. Le test de biais constitue souvent un moment marquant de prise de conscience.",
+      "blocks": [
+        {
+          "title": "Pourquoi notre cerveau crée des biais",
+          "text": "Face à un flux d'informations considérable, le cerveau prend en permanence des raccourcis (les heuristiques) pour décider rapidement et économiser son énergie. Ces raccourcis sont utiles et même indispensables au quotidien, mais ils deviennent des biais lorsqu'ils faussent un jugement porté sur une personne. Le biais n'est donc pas un défaut moral ni le signe d'une malveillance : c'est un fonctionnement normal et universel du cerveau humain. Comprendre cela est essentiel pour aborder le sujet sans culpabilisation, car la culpabilité bloque l'apprentissage et provoque des réactions défensives. Le message clé est qu'on ne peut pas s'empêcher d'avoir des biais, mais qu'on peut apprendre à reconnaître les situations où ils opèrent et à mettre en place des garde-fous. C'est cette posture lucide, et non culpabilisante, qui rend la suite de la formation efficace."
+        },
+        {
+          "title": "Les biais les plus fréquents en contexte RH",
+          "bullets": [
+            "Stéréotype : généralisation appliquée à un groupe (« les seniors résistent au changement », « les jeunes parents sont moins disponibles »).",
+            "Effet de halo : une caractéristique positive (une école prestigieuse, une belle présentation) fait présumer d'autres qualités sans rapport (compétence générale).",
+            "Biais de similarité (effet de miroir) : on préfère et on évalue mieux ceux qui nous ressemblent (parcours, origine sociale, centres d'intérêt).",
+            "Biais de confirmation : on retient surtout les informations qui confirment notre première impression et on néglige celles qui la contredisent.",
+            "Biais d'ancrage : la première information reçue (prétention salariale, premier CV de la pile) sert de référence et influence tout le jugement ultérieur."
+          ]
+        },
+        {
+          "title": "Biais de groupe et conformisme",
+          "text": "Au-delà des biais individuels, des dynamiques collectives amplifient les distorsions de jugement. Le biais d'affinité conduit un jury de recrutement homogène à reproduire ses propres profils. La pression de conformité (effet de groupe) pousse un évaluateur à s'aligner sur l'avis dominant exprimé en premier, surtout s'il émane d'une personne de statut supérieur. Le biais de projection amène à supposer que les autres partagent nos valeurs et nos contraintes. Ces mécanismes expliquent pourquoi une décision collective n'est pas spontanément plus objective qu'une décision individuelle : elle peut au contraire concentrer les biais si elle n'est pas structurée. C'est tout l'enjeu de la séance 5, qui transforme cette compréhension en garde-fous concrets."
+        },
+        {
+          "title": "Test de biais en sous-groupes (30 min)",
+          "text": "Les participants évaluent une série de CV d'abord anonymisés, puis les mêmes CV nominatifs comportant des indices d'âge, de genre, d'origine supposée ou de lieu de résidence. Ils comparent ensuite leurs notes entre les deux versions. L'écart observé, généralement non négligeable, révèle concrètement l'effet des biais sur des professionnels pourtant de bonne foi. Ce moment de prise de conscience, souvent marquant, démontre que la bonne volonté ne suffit pas et qu'il faut agir sur les process."
+        },
+        {
+          "title": "À retenir",
+          "bullets": [
+            "Les biais sont automatiques et universels : tout le monde en a, ce n'est pas une question de morale.",
+            "Connaître les principaux biais (stéréotype, halo, similarité, confirmation, ancrage) permet de les repérer.",
+            "Les dynamiques de groupe peuvent amplifier les biais au lieu de les corriger.",
+            "On ne supprime pas un biais par la seule bonne volonté : il faut modifier les process (objet de la séance 5)."
+          ]
+        }
+      ],
+      "quiz": [
+        {"type":"mc","q":"Qu'est-ce que l'effet de halo ?","answers":[
+          {"text":"Le fait de préférer les personnes qui nous ressemblent","correct":false,"feedback":"Cela décrit le biais de similarité, pas l'effet de halo."},
+          {"text":"Le fait qu'une caractéristique positive en fasse présumer d'autres sans rapport","correct":true,"feedback":"Exact : une belle école fait présumer une compétence générale, à tort."},
+          {"text":"Le fait de retenir uniquement ce qui confirme notre opinion","correct":false,"feedback":"Cela décrit le biais de confirmation."}
+        ]},
+        {"type":"tf","q":"Avoir des biais cognitifs signifie que l'on est une personne malveillante.","answer":false,"feedback_true":"Non : les biais sont des raccourcis automatiques du cerveau, universels et sans rapport avec la morale.","feedback_false":"Exact : les biais sont normaux et universels, ce n'est pas une question de malveillance."},
+        {"type":"mc","q":"Le biais de similarité pousse à favoriser des candidats…","answers":[
+          {"text":"qui nous ressemblent","correct":true,"feedback":"Exact : c'est l'effet de miroir, on préfère ceux qui nous ressemblent."},
+          {"text":"qui sont les plus différents de nous","correct":false,"feedback":"Non, c'est l'inverse du biais de similarité."},
+          {"text":"qui ont postulé en dernier","correct":false,"feedback":"Non, cela n'a pas de lien avec le biais de similarité."}
+        ]},
+        {"type":"qcm","q":"Quels biais sont fréquents en contexte de recrutement ?","answers":[
+          {"text":"Le biais d'ancrage","correct":true,"feedback":"Exact : la première information sert de référence."},
+          {"text":"Le biais de confirmation","correct":true,"feedback":"Exact : on retient ce qui confirme la première impression."},
+          {"text":"Le biais de gravité newtonien","correct":false,"feedback":"Ce n'est pas un biais cognitif, c'est une fantaisie."}
+        ]},
+        {"type":"tf","q":"Une décision collective est toujours plus objective qu'une décision individuelle.","answer":false,"feedback_true":"Non : sans structuration, le groupe peut amplifier les biais (conformisme, affinité).","feedback_false":"Exact : un groupe non structuré peut concentrer les biais plutôt que les corriger."},
+        {"type":"mc","q":"Quel est l'objectif principal du test de CV anonymisés puis nominatifs ?","answers":[
+          {"text":"Évaluer la rapidité de lecture des participants","correct":false,"feedback":"Non, l'objectif n'est pas la vitesse de lecture."},
+          {"text":"Faire prendre conscience de l'effet réel des biais sur des professionnels de bonne foi","correct":true,"feedback":"Exact : l'écart de notation révèle concrètement l'effet des biais."},
+          {"text":"Sélectionner le meilleur candidat fictif","correct":false,"feedback":"Non, le but est pédagogique, pas un vrai recrutement."}
+        ]}
+      ]
+    },
+    {
+      "title": "Séance 5 — Biais dans les process RH : détecter & corriger",
+      "hours": 2.0,
+      "intro": "On passe de la prise de conscience à l'action : cette séance propose une revue de chaque étape du parcours collaborateur pour y traquer les biais et installer des garde-fous concrets et applicables. Le principe directeur est simple : ce ne sont pas les bonnes intentions qui réduisent les biais, mais la structuration des process. Chaque levier présenté est immédiatement transposable dans l'organisation des participants.",
+      "blocks": [
+        {
+          "title": "Recrutement",
+          "bullets": [
+            "Rédiger des offres neutres, fondées sur les compétences réellement nécessaires et exemptes de termes connotés (âge, genre, exigences linguistiques non justifiées).",
+            "Anonymiser le tri des CV chaque fois que c'est possible pour neutraliser les indices d'âge, d'origine ou de genre lors de la première sélection.",
+            "Structurer l'entretien : poser les mêmes questions à tous, utiliser une grille d'évaluation commune, noter critère par critère plutôt que de se forger une impression globale.",
+            "Recourir à plusieurs évaluateurs aux profils variés pour diluer les biais individuels et croiser les regards."
+          ]
+        },
+        {
+          "title": "Pourquoi l'entretien structuré est plus fiable",
+          "text": "L'entretien non structuré, où chaque recruteur improvise ses questions et se fie à son intuition, est l'un des prédicteurs de performance les moins fiables et l'un des plus exposés aux biais. À l'inverse, l'entretien structuré (questions identiques, situations professionnelles concrètes, grille de notation définie à l'avance) améliore nettement la qualité prédictive de la sélection tout en réduisant les écarts d'appréciation injustifiés. La logique est de comparer les candidats sur les mêmes dimensions, et non de comparer des impressions hétérogènes. Définir la grille avant de rencontrer les candidats empêche d'ajuster a posteriori les critères pour justifier une préférence intuitive. Cette discipline demande un effort initial mais sécurise durablement les décisions et leur traçabilité en cas de contestation."
+        },
+        {
+          "title": "Évaluation et promotion",
+          "bullets": [
+            "Définir des critères d'évaluation explicites, mesurables et connus à l'avance par les collaborateurs.",
+            "Pratiquer la calibration : confronter les évaluations entre managers d'un même périmètre pour lisser les écarts de sévérité et d'indulgence.",
+            "Surveiller les viviers de « hauts potentiels » pour vérifier qu'ils reflètent la diversité réelle des équipes et ne reproduisent pas un profil unique.",
+            "Distinguer l'évaluation de la performance passée du potentiel futur, souvent jugé sur des critères implicites et donc plus exposé aux biais."
+          ]
+        },
+        {
+          "title": "Rémunération",
+          "text": "La rémunération est l'un des domaines les plus scrutés, notamment via l'index égalité F/H. Réaliser un audit régulier des écarts salariaux à poste, compétences et ancienneté équivalents permet d'identifier les écarts injustifiés, puis de planifier leur rattrapage dans le cadre d'une enveloppe dédiée. L'analyse doit neutraliser les facteurs objectifs (niveau de responsabilité, ancienneté) pour isoler la part inexpliquée des écarts, qui constitue le véritable signal d'alerte. Documenter la méthode et les corrections protège l'entreprise et témoigne de sa bonne foi."
+        },
+        {
+          "title": "Cas pratique — sécuriser une grille d'entretien",
+          "text": "À partir d'une grille d'entretien existante fournie par le formateur, les participants identifient les questions à risque (vie privée, projets familiaux, âge, origine) puis construisent une grille structurée fondée sur 4 à 5 compétences clés du poste, avec pour chacune une question comportementale et une échelle de notation. Restitution et échange sur les difficultés de mise en œuvre."
+        },
+        {
+          "title": "À retenir",
+          "bullets": [
+            "La structuration des process est l'arme la plus efficace contre les biais, bien plus que la bonne volonté.",
+            "Pluralité d'évaluateurs + critères explicites + grille définie à l'avance + calibration = combinaison gagnante.",
+            "L'entretien structuré est plus prédictif et plus équitable que l'entretien à l'intuition.",
+            "L'audit salarial régulier est incontournable pour détecter et corriger les écarts injustifiés."
+          ]
+        }
+      ],
+      "quiz": [
+        {"type":"qcm","q":"Quels moyens permettent de réduire les biais en recrutement ?","answers":[
+          {"text":"Anonymiser le tri des CV","correct":true,"feedback":"Exact : cela neutralise les indices d'âge, d'origine ou de genre au premier tri."},
+          {"text":"Structurer l'entretien avec une grille commune","correct":true,"feedback":"Exact : les mêmes questions et une grille définie à l'avance limitent les biais."},
+          {"text":"Se fier uniquement à l'intuition du recruteur","correct":false,"feedback":"Faux : l'intuition est justement la plus exposée aux biais."}
+        ]},
+        {"type":"mc","q":"Qu'est-ce que la calibration des évaluations ?","answers":[
+          {"text":"Confronter les évaluations entre managers pour lisser les écarts de sévérité","correct":true,"feedback":"Exact : la calibration harmonise les niveaux d'exigence entre évaluateurs."},
+          {"text":"Augmenter automatiquement toutes les notes de 10 %","correct":false,"feedback":"Non, ce n'est pas une majoration mécanique."},
+          {"text":"Évaluer les salariés sans aucun critère","correct":false,"feedback":"Non, c'est l'inverse d'une démarche calibrée."}
+        ]},
+        {"type":"tf","q":"L'entretien non structuré, fondé sur l'intuition, est l'un des prédicteurs de performance les moins fiables.","answer":true,"feedback_true":"Exact : il est peu prédictif et très exposé aux biais.","feedback_false":"Si : l'entretien non structuré est peu fiable et fortement biaisé."},
+        {"type":"mc","q":"Pourquoi définir la grille d'entretien AVANT de rencontrer les candidats ?","answers":[
+          {"text":"Pour gagner du temps administratif uniquement","correct":false,"feedback":"Ce n'est pas l'objectif principal."},
+          {"text":"Pour éviter d'ajuster a posteriori les critères afin de justifier une préférence intuitive","correct":true,"feedback":"Exact : cela empêche de réécrire les critères pour valider un choix biaisé."},
+          {"text":"Parce que la loi l'impose dans tous les cas","correct":false,"feedback":"Non, ce n'est pas une obligation légale générale ; c'est une bonne pratique."}
+        ]},
+        {"type":"qcm","q":"Concernant l'audit des écarts de rémunération, quelles affirmations sont justes ?","answers":[
+          {"text":"Il faut comparer à poste, compétences et ancienneté équivalents","correct":true,"feedback":"Exact : on neutralise les facteurs objectifs pour isoler les écarts injustifiés."},
+          {"text":"La part inexpliquée des écarts est le véritable signal d'alerte","correct":true,"feedback":"Exact : c'est cette part qui doit être analysée et corrigée."},
+          {"text":"Tout écart de salaire est nécessairement une discrimination","correct":false,"feedback":"Faux : des écarts peuvent s'expliquer par des facteurs objectifs légitimes."}
+        ]},
+        {"type":"tf","q":"Recourir à plusieurs évaluateurs aux profils variés aide à diluer les biais individuels.","answer":true,"feedback_true":"Exact : croiser les regards réduit le poids d'un biais personnel.","feedback_false":"Si : la pluralité d'évaluateurs, à condition d'être structurée, dilue les biais individuels."}
+      ]
+    },
+    {
+      "title": "Séance 6 — Construire une stratégie D&I",
+      "hours": 2.0,
+      "intro": "Une politique D&I efficace n'est pas une collection d'actions isolées et symboliques, mais une stratégie structurée, portée par la direction et inscrite dans la durée. Cette séance fournit le cadre pour passer de l'intention à une feuille de route cohérente. Elle insiste sur les conditions de succès souvent négligées et sur le piège du diversity washing, qui détruit la confiance interne et externe.",
+      "blocks": [
+        {
+          "title": "Définir l'ambition et l'EVP D&I",
+          "text": "L'EVP (Employee Value Proposition) en matière de D&I exprime ce que l'entreprise promet concrètement à ses collaborateurs en matière d'inclusion, d'équité et de développement. Elle doit être sincère, alignée avec la culture réelle de l'organisation et soutenue visiblement par la direction. Une ambition crédible part d'un diagnostic honnête de la situation actuelle (représentation, ressenti, écarts) plutôt que d'un idéal déconnecté. Elle se traduit en quelques engagements clairs, compréhensibles par tous, et évite les formulations vagues qui ne servent que la communication. Une bonne EVP D&I est un repère qui oriente les décisions au quotidien et permet d'arbitrer en cohérence."
+        },
+        {
+          "title": "Structurer le plan d'action sur trois piliers",
+          "bullets": [
+            "Recrutement : élargir le sourcing, débiaiser les process (offres, tri, entretiens), nouer des partenariats avec des écoles, des associations et Cap emploi.",
+            "Formation et sensibilisation : former en priorité les managers et les recruteurs aux biais, puis sensibiliser l'ensemble des salariés pour diffuser une culture commune.",
+            "Culture et inclusion au quotidien : animer des réseaux internes, organiser des événements, prévoir des aménagements (handicap, parentalité), lutter activement contre le sexisme et le harcèlement."
+          ]
+        },
+        {
+          "title": "Conditions de succès",
+          "bullets": [
+            "Un sponsor au plus haut niveau (direction générale ou CODIR) qui porte visiblement la démarche et lui donne de la légitimité.",
+            "Des objectifs réalistes et échelonnés, combinant des quick wins rapides et des chantiers de fond plus longs.",
+            "L'implication des managers de proximité, car ce sont eux qui font vivre ou échouer l'inclusion au quotidien.",
+            "Une communication interne et externe cohérente, qui ne promet pas plus que ce qui est réellement fait."
+          ]
+        },
+        {
+          "title": "Le piège du diversity washing",
+          "text": "Le diversity washing consiste à mettre en avant des engagements D&I dans la communication sans réalité opérationnelle derrière. Ce décalage entre le discours et les faits est aujourd'hui rapidement détecté, en interne par les salariés qui vivent une autre réalité, et en externe par les candidats, les clients et les médias. Les conséquences sont lourdes : perte de confiance, désengagement, voire bad buzz. La règle est donc de ne communiquer que sur ce qui est réellement engagé, d'assumer le chemin restant à parcourir et de privilégier la preuve (chiffres, actions concrètes) sur la déclaration d'intention. Mieux vaut une communication modeste et vraie qu'un discours ambitieux et creux. La crédibilité se construit dans la durée et se détruit en un instant."
+        },
+        {
+          "title": "Cas pratique — esquisser sa feuille de route",
+          "text": "Chaque participant définit trois objectifs D&I prioritaires pour son organisation, identifie pour chacun le sponsor approprié et un premier quick win activable sous trois mois. Le formateur aide à vérifier le réalisme des objectifs, leur alignement avec les enjeux de l'entreprise et la cohérence d'ensemble de la feuille de route esquissée."
+        },
+        {
+          "title": "À retenir",
+          "bullets": [
+            "Une stratégie D&I = ambition claire (EVP) + trois piliers (recrutement, formation, culture) + sponsor + objectifs échelonnés.",
+            "Sans portage par la direction et implication des managers, la démarche s'essouffle.",
+            "Attention au diversity washing : ne communiquer que sur ce qui est réellement engagé.",
+            "Combiner quick wins et chantiers de fond pour entretenir la dynamique."
+          ]
+        }
+      ],
+      "quiz": [
+        {"type":"mc","q":"Que désigne l'EVP D&I ?","answers":[
+          {"text":"Ce que l'entreprise promet concrètement à ses collaborateurs en matière d'inclusion et d'équité","correct":true,"feedback":"Exact : l'Employee Value Proposition D&I doit être sincère et alignée avec la culture réelle."},
+          {"text":"Un indicateur réglementaire obligatoire à publier chaque année","correct":false,"feedback":"Non : l'EVP n'est pas une obligation légale, c'est un engagement interne."},
+          {"text":"Le budget annuel alloué à la communication externe","correct":false,"feedback":"Non, ce n'est pas un budget."}
+        ]},
+        {"type":"qcm","q":"Quels sont les trois piliers classiques d'un plan d'action D&I ?","answers":[
+          {"text":"Le recrutement","correct":true,"feedback":"Exact : sourcing élargi et process débiaisés."},
+          {"text":"La formation et la sensibilisation","correct":true,"feedback":"Exact : managers et recruteurs en priorité, puis l'ensemble des salariés."},
+          {"text":"La réduction des effectifs","correct":false,"feedback":"Faux : la réduction des effectifs n'est pas un pilier de la D&I."}
+        ]},
+        {"type":"tf","q":"Le diversity washing consiste à communiquer sur des engagements D&I sans réalité opérationnelle derrière.","answer":true,"feedback_true":"Exact : ce décalage discours/faits détruit la confiance et expose à des risques réputationnels.","feedback_false":"Si : c'est bien le décalage entre le discours et les faits qui définit le diversity washing."},
+        {"type":"mc","q":"Quelle condition est déterminante pour la réussite d'une démarche D&I ?","answers":[
+          {"text":"Un sponsor au plus haut niveau qui porte visiblement la démarche","correct":true,"feedback":"Exact : le portage par la direction donne légitimité et moyens."},
+          {"text":"Confier le sujet uniquement à un stagiaire","correct":false,"feedback":"Non : sans portage de haut niveau, la démarche s'essouffle."},
+          {"text":"Communiquer largement avant d'avoir agi","correct":false,"feedback":"Non : c'est précisément le risque de diversity washing."}
+        ]},
+        {"type":"tf","q":"Il vaut mieux combiner des quick wins rapides avec des chantiers de fond plus longs.","answer":true,"feedback_true":"Exact : les quick wins entretiennent la dynamique pendant que les chantiers de fond avancent.","feedback_false":"Si : combiner les deux horizons de temps maintient la mobilisation."},
+        {"type":"qcm","q":"Pourquoi impliquer les managers de proximité dans la démarche D&I ?","answers":[
+          {"text":"Ce sont eux qui font vivre l'inclusion au quotidien","correct":true,"feedback":"Exact : l'inclusion se joue dans les pratiques managériales concrètes."},
+          {"text":"Ils relaient et incarnent la politique auprès des équipes","correct":true,"feedback":"Exact : sans leur adhésion, la démarche reste théorique."},
+          {"text":"Pour leur transférer toute la responsabilité juridique","correct":false,"feedback":"Faux : la responsabilité de l'employeur ne se transfère pas ainsi."}
+        ]}
+      ]
+    },
+    {
+      "title": "Séance 7 — Indicateurs & pilotage",
+      "hours": 1.5,
+      "intro": "« Ce qui ne se mesure pas ne se pilote pas. » Cette séance outille les participants pour suivre leur démarche avec des indicateurs fiables, pertinents et respectueux du cadre légal français. Elle insiste sur l'interdiction de collecter certaines données et sur l'art de construire un tableau de bord lisible, partagé au plus haut niveau. L'objectif est de transformer la D&I en objet de pilotage régulier plutôt qu'en intention sans suivi.",
+      "blocks": [
+        {
+          "title": "Choisir ses indicateurs",
+          "bullets": [
+            "Indicateurs de représentation : répartition F/H par niveau hiérarchique, pyramide des âges, taux d'emploi des travailleurs handicapés.",
+            "Indicateurs de process : part d'offres rédigées de façon neutre, taux d'entretiens structurés, proportion de jurys mixtes.",
+            "Indicateurs de ressenti : score d'inclusion issu d'enquêtes anonymes (sentiment d'appartenance, perception d'équité, sécurité psychologique).",
+            "Indicateurs de résultat : écarts salariaux à poste équivalent, turnover par population, taux d'accès aux promotions et aux formations."
+          ]
+        },
+        {
+          "title": "Cadre légal des données à respecter",
+          "text": "En France, la collecte de données sur l'origine ethnique ou la prétendue « race » est interdite, même dans une intention louable de mesure de la diversité. On pilote donc essentiellement via des critères licites : le genre, l'âge et le handicap, ainsi que via des enquêtes de ressenti anonymes et conformes au RGPD. Les données sensibles doivent être traitées avec une base légale claire, une finalité définie, une durée de conservation limitée et des mesures de sécurité appropriées. Associer le délégué à la protection des données (DPO) et, le cas échéant, le CSE, sécurise la démarche. Ce respect du cadre légal n'est pas un frein mais une condition de confiance : un pilotage illégal détruirait la crédibilité de toute la politique D&I."
+        },
+        {
+          "title": "Distinguer indicateurs d'activité et indicateurs d'impact",
+          "text": "Une erreur fréquente consiste à se contenter d'indicateurs d'activité (nombre de personnes formées, nombre d'événements organisés) qui mesurent l'effort déployé mais pas le résultat obtenu. Le pilotage gagne en pertinence lorsqu'il suit aussi des indicateurs d'impact (évolution réelle de la représentation, réduction des écarts salariaux, amélioration du score d'inclusion). Les premiers rassurent à court terme, mais seuls les seconds démontrent que la démarche produit des effets. Un bon tableau de bord combine les deux familles, en réservant une place centrale aux indicateurs d'impact suivis dans la durée. Cette distinction protège des illusions d'optique où l'activité masque l'absence de progrès réel."
+        },
+        {
+          "title": "Construire un tableau de bord D&I",
+          "text": "Quelques indicateurs bien choisis, suivis dans le temps et présentés régulièrement au CODIR, valent mieux qu'une usine à gaz que personne ne consulte. Le tableau de bord doit être lisible, comparable d'une période à l'autre, et assorti d'une cible et d'un commentaire d'analyse. Atelier : chaque participant sélectionne cinq indicateurs prioritaires pour son organisation, en veillant à couvrir les quatre familles et à rester dans le cadre légal des données."
+        },
+        {
+          "title": "À retenir",
+          "bullets": [
+            "Quatre familles d'indicateurs : représentation, process, ressenti, résultat.",
+            "Interdiction de collecter l'origine ethnique : privilégier genre, âge et handicap, plus le ressenti anonyme conforme au RGPD.",
+            "Distinguer indicateurs d'activité (effort) et indicateurs d'impact (résultat réel).",
+            "Un bon tableau de bord est court, comparable dans le temps et partagé au plus haut niveau."
+          ]
+        }
+      ],
+      "quiz": [
+        {"type":"qcm","q":"Quelles sont des familles d'indicateurs D&I pertinentes ?","answers":[
+          {"text":"Les indicateurs de représentation (répartition F/H, pyramide des âges)","correct":true,"feedback":"Exact : ils mesurent la composition des effectifs."},
+          {"text":"Les indicateurs de ressenti (score d'inclusion)","correct":true,"feedback":"Exact : ils mesurent la perception d'équité et d'appartenance."},
+          {"text":"Les indicateurs de cours de bourse intraday","correct":false,"feedback":"Non : ce n'est pas un indicateur de pilotage D&I."}
+        ]},
+        {"type":"tf","q":"En France, on peut collecter l'origine ethnique des salariés à condition d'anonymiser les résultats.","answer":false,"feedback_true":"Non : la collecte de l'origine ethnique est interdite, même anonymisée à des fins de mesure.","feedback_false":"Exact : cette collecte est interdite ; on s'appuie sur le genre, l'âge, le handicap et le ressenti anonyme."},
+        {"type":"mc","q":"Quelle différence entre indicateur d'activité et indicateur d'impact ?","answers":[
+          {"text":"L'activité mesure l'effort déployé, l'impact mesure le résultat réel obtenu","correct":true,"feedback":"Exact : seuls les indicateurs d'impact démontrent un progrès réel."},
+          {"text":"Ce sont deux termes strictement synonymes","correct":false,"feedback":"Non : ils mesurent des choses différentes."},
+          {"text":"L'impact mesure le nombre d'événements organisés","correct":false,"feedback":"Non : compter les événements est un indicateur d'activité."}
+        ]},
+        {"type":"mc","q":"Quelle caractéristique définit un bon tableau de bord D&I ?","answers":[
+          {"text":"Il est exhaustif et contient des dizaines d'indicateurs","correct":false,"feedback":"Non : l'exhaustivité nuit à la lisibilité et personne ne le consulte."},
+          {"text":"Il est court, comparable dans le temps et partagé au plus haut niveau","correct":true,"feedback":"Exact : peu d'indicateurs bien choisis, suivis et présentés au CODIR."},
+          {"text":"Il est confidentiel et connu du seul service RH","correct":false,"feedback":"Non : il doit être partagé au plus haut niveau pour piloter."}
+        ]},
+        {"type":"tf","q":"Associer le DPO au pilotage des données D&I aide à sécuriser la démarche au regard du RGPD.","answer":true,"feedback_true":"Exact : le DPO veille à la base légale, à la finalité et à la sécurité des données.","feedback_false":"Si : impliquer le DPO sécurise le traitement des données sensibles."},
+        {"type":"qcm","q":"Quels critères peuvent légalement servir à piloter la diversité en France ?","answers":[
+          {"text":"Le genre","correct":true,"feedback":"Exact : c'est un critère licite de pilotage."},
+          {"text":"Le handicap","correct":true,"feedback":"Exact : le taux d'emploi des travailleurs handicapés est suivi (OETH)."},
+          {"text":"L'origine ethnique","correct":false,"feedback":"Faux : sa collecte est interdite en France."}
+        ]}
+      ]
+    },
+    {
+      "title": "Séance 8 — Plan d'action & ancrage",
+      "hours": 1.5,
+      "intro": "Dernière séance, entièrement tournée vers l'application : chacun repart avec un plan d'action personnalisé et les clés pour ancrer durablement la démarche dans le fonctionnement de l'entreprise. On consolide ici l'ensemble du travail des sept séances précédentes en un livrable structuré et évaluable. L'enjeu final est de faire de la D&I un cycle continu plutôt qu'un projet ponctuel sans lendemain.",
+      "blocks": [
+        {
+          "title": "Du diagnostic au plan d'action",
+          "text": "Cette étape consolide le travail des sept séances précédentes en un plan d'action structuré et opérationnel. À partir du diagnostic réalisé (vocabulaire partagé, enjeux business, contraintes légales, biais identifiés, indicateurs disponibles), chaque participant formalise des objectifs, des actions concrètes, des responsables, des échéances et des indicateurs de suivi. Le plan doit être réaliste au regard des moyens de l'organisation et hiérarchisé par priorité. C'est le livrable final de la formation, évalué individuellement par le formateur, qui vérifie la cohérence d'ensemble et le caractère actionnable de chaque ligne. Un bon plan tient sur une à deux pages et peut être présenté tel quel à la direction."
+        },
+        {
+          "title": "Modèle de plan d'action (extrait du kit D&I)",
+          "bullets": [
+            "Objectif : ce que l'on veut atteindre (exemple : structurer 100 % des entretiens de recrutement d'ici 6 mois).",
+            "Action(s) : les étapes concrètes à réaliser pour atteindre l'objectif.",
+            "Responsable : la personne qui pilote et rend compte de l'avancement.",
+            "Échéance : la date cible, réaliste et engageante.",
+            "Indicateur : la mesure qui permettra de constater le succès ou l'écart."
+          ]
+        },
+        {
+          "title": "Gérer les résistances",
+          "text": "Toute démarche D&I rencontre des résistances qu'il faut anticiper plutôt que subir. Certaines viennent de la crainte d'une discrimination « à l'envers » ou de quotas perçus comme injustes : on y répond en rappelant que l'objectif est l'égalité des chances et la lutte contre les biais, et non l'attribution de postes sur des critères non professionnels. D'autres résistances tiennent à la charge de travail supplémentaire perçue : on y répond en montrant le gain (meilleure qualité de recrutement, réduction des contentieux) et en intégrant les nouvelles pratiques aux process existants plutôt qu'en les ajoutant. Écouter les objections sans les disqualifier, expliquer le sens de la démarche et valoriser les premiers résultats sont les leviers les plus efficaces pour faire adhérer. Le management de proximité joue ici un rôle déterminant de relais."
+        },
+        {
+          "title": "Ancrer dans la durée",
+          "bullets": [
+            "Intégrer la D&I aux rituels managériaux existants (revues de performance, fixation d'objectifs, points d'équipe) plutôt que d'en faire un dispositif à part.",
+            "Former en continu les nouveaux arrivants et les managers fraîchement nommés pour entretenir la culture commune.",
+            "Communiquer les progrès, mais aussi les difficultés, avec transparence pour préserver la confiance.",
+            "Réévaluer le plan chaque année à partir des indicateurs, en ajustant les objectifs et en célébrant les avancées."
+          ]
+        },
+        {
+          "title": "Atelier final — finaliser et présenter son plan",
+          "text": "Chaque participant finalise son plan d'action D&I à l'aide du modèle du kit, puis le présente en trois minutes au groupe pour recueillir des retours constructifs de ses pairs et du formateur. Cette présentation entraîne à défendre la démarche devant une direction. La formation se conclut par une évaluation à chaud, puis une évaluation à froid à J+60 pour mesurer la mise en œuvre effective des plans."
+        },
+        {
+          "title": "À retenir",
+          "bullets": [
+            "Un plan d'action = objectifs + actions + responsables + échéances + indicateurs, tenant sur une à deux pages.",
+            "Anticiper et traiter les résistances (crainte des quotas, charge perçue) par l'écoute et la preuve.",
+            "L'ancrage passe par les rituels managériaux, la formation continue et la communication transparente des progrès.",
+            "La démarche se réévalue chaque année : c'est un cycle, pas un projet ponctuel."
+          ]
+        }
+      ],
+      "quiz": [
+        {"type":"qcm","q":"Quels éléments doit comporter chaque ligne d'un plan d'action D&I ?","answers":[
+          {"text":"Un objectif et des actions concrètes","correct":true,"feedback":"Exact : il faut savoir quoi atteindre et comment."},
+          {"text":"Un responsable et une échéance","correct":true,"feedback":"Exact : sans pilote ni date, l'action n'avance pas."},
+          {"text":"Le nom de tous les salariés de l'entreprise","correct":false,"feedback":"Non : ce n'est pas un composant du plan d'action."}
+        ]},
+        {"type":"tf","q":"L'objectif d'une démarche D&I est d'attribuer des postes sur des critères non professionnels pour atteindre des quotas.","answer":false,"feedback_true":"Non : l'objectif est l'égalité des chances et la lutte contre les biais, pas l'attribution sur critères non professionnels.","feedback_false":"Exact : la D&I vise l'égalité des chances et la réduction des biais, pas des quotas arbitraires."},
+        {"type":"mc","q":"Quelle est la meilleure façon de répondre à la résistance liée à la charge de travail supplémentaire ?","answers":[
+          {"text":"Imposer les nouvelles pratiques sans explication","correct":false,"feedback":"Non : imposer sans expliquer renforce la résistance."},
+          {"text":"Montrer le gain et intégrer les pratiques aux process existants","correct":true,"feedback":"Exact : démontrer la valeur et limiter la surcharge favorise l'adhésion."},
+          {"text":"Abandonner la démarche dès la première objection","correct":false,"feedback":"Non : les résistances s'anticipent et se traitent."}
+        ]},
+        {"type":"qcm","q":"Comment ancrer durablement la démarche D&I ?","answers":[
+          {"text":"Intégrer la D&I aux rituels managériaux existants","correct":true,"feedback":"Exact : l'intégrer aux pratiques évite l'effet dispositif à part."},
+          {"text":"Réévaluer le plan chaque année à partir des indicateurs","correct":true,"feedback":"Exact : la démarche est un cycle continu."},
+          {"text":"Ne plus jamais en reparler après le lancement","correct":false,"feedback":"Faux : sans suivi, la démarche s'essouffle rapidement."}
+        ]},
+        {"type":"tf","q":"Communiquer aussi sur les difficultés, et pas seulement sur les succès, aide à préserver la confiance.","answer":true,"feedback_true":"Exact : la transparence sur le chemin restant renforce la crédibilité de la démarche.","feedback_false":"Si : assumer les difficultés est un gage de crédibilité et de confiance."},
+        {"type":"mc","q":"Quand a lieu l'évaluation à froid de la formation ?","answers":[
+          {"text":"Le jour même, en fin de session","correct":false,"feedback":"Non : c'est l'évaluation à chaud qui a lieu en fin de session."},
+          {"text":"À J+60, pour mesurer la mise en œuvre effective","correct":true,"feedback":"Exact : l'évaluation à froid à J+60 mesure la mise en œuvre des plans."},
+          {"text":"Cinq ans après la formation","correct":false,"feedback":"Non : l'évaluation à froid intervient à J+60."}
+        ]}
+      ]
+    }
+  ]
+}
