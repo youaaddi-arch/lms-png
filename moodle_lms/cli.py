@@ -23,7 +23,7 @@ from dotenv import load_dotenv
 
 from .client import MoodleClient
 from .course_builder import build_course
-from .document_parser import parse_document
+from .document_parser import load_program
 
 
 class _DummyClient:
@@ -54,17 +54,22 @@ def cmd_check(_: argparse.Namespace) -> None:
 
 
 def cmd_preview(args: argparse.Namespace) -> None:
-    program = parse_document(args.document, title=args.title)
+    program = load_program(args.document, title=args.title)
     print(f"Titre du cours : {program.title}")
-    print(f"Modules détectés : {len(program.modules)}\n")
+    summed = program.modules_hours()
+    total_txt = f" — total modules : {summed}h" if summed is not None else ""
+    print(f"Modules détectés : {len(program.modules)}{total_txt}\n")
     for i, module in enumerate(program.modules, start=1):
-        print(f"  {i}. {module.title}")
+        print(f"  {i}. {module.display_title()}")
         for bullet in module.bullets:
             print(f"       - {html.unescape(bullet)}")
+    mismatch = program.hours_mismatch()
+    if mismatch:
+        print(f"\n  ⚠️  {mismatch}")
 
 
 def cmd_build(args: argparse.Namespace) -> None:
-    program = parse_document(args.document, title=args.title)
+    program = load_program(args.document, title=args.title)
     # En dry-run, build_course n'appelle jamais le client : on en passe un factice.
     client = _DummyClient() if args.dry_run else _make_client()
     result = build_course(client, program, args.category, dry_run=args.dry_run)
@@ -76,6 +81,17 @@ def cmd_build(args: argparse.Namespace) -> None:
     print(f"  sections remplies : {result.sections_filled}")
     for warning in result.warnings:
         print(f"  ⚠️  {warning}")
+
+
+def cmd_export(args: argparse.Namespace) -> None:
+    from .html_preview import write_html
+
+    program = load_program(args.document, title=args.title)
+    path = write_html(program, args.out)
+    print(f"Aperçu HTML écrit : {path}")
+    mismatch = program.hours_mismatch()
+    if mismatch:
+        print(f"  ⚠️  {mismatch}")
 
 
 def main(argv: list[str] | None = None) -> None:
@@ -103,6 +119,12 @@ def main(argv: list[str] | None = None) -> None:
         "--dry-run", action="store_true", help="Simuler sans écrire sur Moodle"
     )
     p_build.set_defaults(func=cmd_build)
+
+    p_exp = sub.add_parser("export", help="Génère un aperçu HTML du cours")
+    p_exp.add_argument("document", help="Chemin du programme (.json/.pdf/.docx/.txt)")
+    p_exp.add_argument("--title", help="Forcer le titre du cours")
+    p_exp.add_argument("--out", default="out/preview.html", help="Fichier de sortie")
+    p_exp.set_defaults(func=cmd_export)
 
     args = parser.parse_args(argv)
     args.func(args)

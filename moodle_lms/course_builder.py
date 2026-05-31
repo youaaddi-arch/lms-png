@@ -33,6 +33,10 @@ def build_course(
     shortname = program.suggested_shortname()
     num_modules = len(program.modules)
 
+    mismatch = program.hours_mismatch()
+    if mismatch:
+        warnings.append(mismatch)
+
     if dry_run:
         return BuildResult(
             course_id=-1,
@@ -58,7 +62,7 @@ def build_course(
             client.update_section(
                 courseid=course_id,
                 section_number=index,
-                name=module.title,
+                name=module.display_title(),
                 summary=module.to_html(),
             )
             filled += 1

@@ -121,3 +121,16 @@ def parse_text(text: str, title: str | None = None) -> Program:
 def parse_document(path: str | Path, title: str | None = None) -> Program:
     """Pipeline complet : fichier -> texte -> `Program`."""
     return parse_text(extract_text(path), title=title)
+
+
+def load_program(path: str | Path, title: str | None = None) -> Program:
+    """Charge un programme depuis n'importe quel format supporté.
+
+    - `.json` : format structuré (recommandé pour les fiches officielles).
+    - `.pdf` / `.docx` / `.txt` / `.md` : extraction heuristique.
+    """
+    if Path(path).suffix.lower() == ".json":
+        from .program_loader import load_json
+
+        return load_json(path)
+    return parse_document(path, title=title)

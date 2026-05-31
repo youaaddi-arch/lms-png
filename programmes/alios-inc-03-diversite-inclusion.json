@@ -1,0 +1,94 @@
+{
+  "title": "Diversité et inclusion en entreprise",
+  "shortname": "alios-inc-03-diversite-inclusion",
+  "category_name": "Marque Manque",
+  "ref": "INC-03",
+  "duration": "2 jours · 14h",
+  "total_hours": 14,
+  "price_ht": "1 290 €",
+  "tagline": "Construire une politique diversité & inclusion efficace qui enrichit la performance et l'engagement de vos équipes.",
+  "objectives": [
+    "Comprendre les enjeux de la diversité et de l'inclusion",
+    "Identifier les 26 critères de discrimination légaux",
+    "Détecter et corriger les biais dans ses process RH",
+    "Construire une stratégie D&I pragmatique",
+    "Mesurer et piloter avec des indicateurs",
+    "Faire de D&I un levier business"
+  ],
+  "public": "Responsables RH, responsables D&I, managers, dirigeants, membres CSE, chefs de projet transformation.",
+  "prerequisites": "Aucun prérequis technique. Implication dans la politique RH ou managériale.",
+  "modalities": [
+    "Études de cas entreprises D&I",
+    "Ateliers et jeux de rôle",
+    "Tests de biais",
+    "Kit D&I remis (indicateurs, modèles)",
+    "Plateforme 90 jours"
+  ],
+  "evaluation": [
+    "Test de positionnement en amont",
+    "Ateliers évalués",
+    "Plan d'action D&I final évalué",
+    "Attestation de fin de formation",
+    "Évaluation à chaud et à froid (J+60)"
+  ],
+  "means": [
+    "Salle équipée",
+    "Kit D&I complet",
+    "Ressources AFMD, CoFEL",
+    "Plateforme Alios 90 jours",
+    "Accessibilité PSH : formations accessibles aux personnes en situation de handicap. Adaptations possibles sur demande à notre référent handicap au moins 15 jours avant le démarrage."
+  ],
+  "modules": [
+    {
+      "title": "Jour 1 — Enjeux et cadre",
+      "hours": 7,
+      "blocks": [
+        {
+          "title": "Diversité et inclusion",
+          "bullets": [
+            "Définitions : diversité, inclusion, équité, appartenance",
+            "Enjeux business (performance, innovation, attractivité)",
+            "Études McKinsey, BCG sur D&I",
+            "Tendances et pressions régulatoires"
+          ]
+        },
+        {
+          "title": "Cadre légal",
+          "bullets": [
+            "Les 26 critères de discrimination (Code pénal)",
+            "Index de l'égalité F/H",
+            "OETH handicap",
+            "Labels (Diversité, Égalité)",
+            "Risques et sanctions"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Jour 2 — Stratégie et action",
+      "hours": 7,
+      "blocks": [
+        {
+          "title": "Biais et process",
+          "bullets": [
+            "Biais cognitifs (stéréotypes, halo)",
+            "Biais dans recrutement, évaluation, promotion",
+            "Tests en équipe",
+            "Corriger les process"
+          ]
+        },
+        {
+          "title": "Stratégie D&I",
+          "bullets": [
+            "Ambition et EVP D&I",
+            "Plan d'action structuré (recrutement, formation, culture)",
+            "Indicateurs",
+            "Implication managériale",
+            "Communication interne/externe",
+            "Plan d'action personnalisé"
+          ]
+        }
+      ]
+    }
+  ]
+}
