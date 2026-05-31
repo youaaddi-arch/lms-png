@@ -1,0 +1,163 @@
+{
+  "semantics": [
+    {
+      "label": "Médiá",
+      "fields": [
+        {
+          "label": "Typ",
+          "description": "Voliteľné médiá zobrazené nad otázkou."
+        },
+        {
+          "label": "Zakázať priblíženie obrázka"
+        }
+      ]
+    },
+    {
+      "label": "Otázka"
+    },
+    {
+      "label": "Správna odpoveď",
+      "options": [
+        {
+          "label": "Pravda"
+        },
+        {
+          "label": "Nepravda"
+        }
+      ]
+    },
+    {
+      "label": "Preklady používateľského rozhrania pre otázky Pravda / Nepravda",
+      "fields": [
+        {
+          "label": "Názov pre tlačítko pravda",
+          "default": "Pravda"
+        },
+        {
+          "label": "Názov pre tlačítko nepravda",
+          "default": "Nepravda"
+        },
+        {
+          "label": "Spätná väzba - text",
+          "default": "Získali ste @score z @total celkových bodov",
+          "description": "Text spätnej väzby, dostupné premenné: @score a @total. Príklad: „Dostali ste @score z @total možných bodov“"
+        },
+        {
+          "label": "Text pre tlačítko \"Skontrolovať\"",
+          "default": "Skontrolovať"
+        },
+        {
+          "label": "Text pre tlačidlo \"Odoslať\"",
+          "default": "Odoslať"
+        },
+        {
+          "label": "Text pre tlačidlo \"Ukázať riešenie\"",
+          "default": "Ukázať riešenie"
+        },
+        {
+          "label": "Text pre tlačidlo \"Zopakovať\"",
+          "default": "Zopakovať"
+        },
+        {
+          "label": "Nesprávna odpoveď",
+          "default": "Nesprávna odpoveď"
+        },
+        {
+          "label": "Správna odpoveď",
+          "default": "Správna odpoveď"
+        },
+        {
+          "label": "Textové znázornenie výsledkovej lišty pre tých, ktorí používajú čítačku",
+          "default": "Získali ste :num z celkového počtu bodov :total"
+        },
+        {
+          "label": "Popis pomocnej technológie pre tlačidlo „Skontrolovať“",
+          "default": "Skontrolovať odpovede. Odpovede budú označené ako správne, nesprávne alebo nezodpovedané."
+        },
+        {
+          "label": "Popis pomocnej technológie pre tlačidlo „Zobraziť riešenie“",
+          "default": "Ukázať riešenie. Úloha bude označená s jej správnym riešením."
+        },
+        {
+          "label": "Popis asistenčnej technológie pre tlačidlo „Zopakovať“",
+          "default": "Skúsiť úlohu zopakovať. Vyprázdniť všetky odpovede a začať úlohu odznova."
+        }
+      ]
+    },
+    {
+      "label": "Nastavenia správania",
+      "description": "Tieto možnosti vám umožnia ovládať, ako sa bude úloha správať.",
+      "fields": [
+        {
+          "label": "Povoliť tlačidlo \"Zopakovať\""
+        },
+        {
+          "label": "Povoliť tlačidlo \"Ukázať riešenie\""
+        },
+        {
+          "label": "Povoliť tlačidlo \"Skontrolovať\""
+        },
+        {
+          "label": "Zobraziť dialógové okno s potvrdením pri stlačení \"Skontrolovať\""
+        },
+        {
+          "label": "Zobraziť dialógové okno s potvrdením pri stlačení \"Zopakovať\""
+        },
+        {
+          "label": "Automaticky skontrolovať odpoveď",
+          "description": "Upozorňujeme, že ak povolíte túto možnosť, zhorší sa tým prístupnosť"
+        },
+        {
+          "label": "Spätná väzba pri správnej odpovedi",
+          "description": "Toto prepíše predvolený text spätnej väzby. Dostupné premenné: @score a @total"
+        },
+        {
+          "label": "Spätná väzba pri nesprávnej odpovedi",
+          "description": "Týmto sa prepíše predvolený text spätnej väzby. Dostupné premenné: @score a @total"
+        }
+      ]
+    },
+    {
+      "label": "Potvrdzovacie okno pre Skontrolovať",
+      "fields": [
+        {
+          "label": "Text nadpisu",
+          "default": "Dokončiť ?"
+        },
+        {
+          "label": "Text tela",
+          "default": "Ste si istý, že chcete ukončiť ?"
+        },
+        {
+          "label": "Názov tlačidla Zrušiť",
+          "default": "Zrušiť"
+        },
+        {
+          "label": "Názov tlačidla Potvrdiť",
+          "default": "Ukončiť"
+        }
+      ]
+    },
+    {
+      "label": "Potvrdzovacie okno Zopakovať",
+      "fields": [
+        {
+          "label": "Text nadpisu",
+          "default": "Zopakovať ?"
+        },
+        {
+          "label": "Text tela",
+          "default": "Ste si istý, že chcete otázku zopakovať ?"
+        },
+        {
+          "label": "Názov tlačidla Zrušiť",
+          "default": "Zrušiť"
+        },
+        {
+          "label": "Názov tlačidla Potvrdiť",
+          "default": "Potvrdiť"
+        }
+      ]
+    }
+  ]
+}
