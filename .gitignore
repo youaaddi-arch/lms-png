@@ -1,0 +1,19 @@
+# Secrets — ne jamais committer
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Documents de programmes (souvent confidentiels)
+programmes/*.pdf
+programmes/*.docx
+programmes/*.doc
+
+# Sorties
+out/
+*.log
