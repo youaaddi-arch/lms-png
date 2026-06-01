@@ -1,0 +1,163 @@
+{
+  "semantics": [
+    {
+      "label": "Média",
+      "fields": [
+        {
+          "label": "Típus",
+          "description": "A kérdés felett megjelenítendő opcionális médiatartalom."
+        },
+        {
+          "label": "Kép nagyíthatóságának tiltása"
+        }
+      ]
+    },
+    {
+      "label": "Kérdés"
+    },
+    {
+      "label": "Helyes válasz",
+      "options": [
+        {
+          "label": "Igaz"
+        },
+        {
+          "label": "Hamis"
+        }
+      ]
+    },
+    {
+      "label": "Az Igaz/Hamis feladattípus felhasználói felületének fordításai",
+      "fields": [
+        {
+          "label": "Címkefelirat az „Igaz” gombhoz",
+          "default": "Igaz"
+        },
+        {
+          "label": "Címkefelirat a „Hamis” gombhoz",
+          "default": "Hamis"
+        },
+        {
+          "label": "Visszajelző szöveg",
+          "default": "@score pontot kaptál az elérhető @total pontból",
+          "description": "A visszajelző szöveghez használható változók: @score (pontszám) és @total (összes pont). Példa: '@score pontot kaptál az elérhető @total pontból.'"
+        },
+        {
+          "label": "Az \"Ellenőrzés\" gomb felirata",
+          "default": "Ellenőrzés"
+        },
+        {
+          "label": "A \"Beküldés\" gomb felirata",
+          "default": "Beküldés"
+        },
+        {
+          "label": "A \"Megoldás megmutatása\" gomb felirata",
+          "default": "Megoldás megmutatása"
+        },
+        {
+          "label": "Felrat az \"Újra próbálkozás\" gombhoz",
+          "default": "Újra próbálkozás"
+        },
+        {
+          "label": "Helytelen válasz",
+          "default": "Helytelen válasz"
+        },
+        {
+          "label": "Helyes válasz",
+          "default": "Helyes válasz"
+        },
+        {
+          "label": "A pontsáv szöveges formában a felolvasó programot használók számára (akadálymentesítés)",
+          "default": ":num pontot kaptál az elérhető :total pontból"
+        },
+        {
+          "label": "Az \"Ellenőrzés\" gomb megértést segítő magyarázatának leírása",
+          "default": "A válaszok ellenőrzése. A beküldött válaszok helyesnek, helytelennek vagy megválaszolatlannak lesznek megjelölve."
+        },
+        {
+          "label": "A \"Megoldás megmutatása\" gomb megértést segítő magyarázatának leírása",
+          "default": "Megmutatja a helyes megoldást. A beküldött feladat a helyes megoldásával együtt jelenik meg."
+        },
+        {
+          "label": "Az \"Újra próbálkozás\" gomb megértést segítő magyarázatának leírása",
+          "default": "A feladat megoldásának ismételt megoldása. Alahelyzetbe állítja az összes választ, és elölről kezdődik a feladat."
+        }
+      ]
+    },
+    {
+      "label": "Viselkedési beállítások",
+      "description": "Ezekkel a beállításokkal szabályozható a feladat viselkedése.",
+      "fields": [
+        {
+          "label": "\"Újra próbálkozás\" gomb engedélyezése"
+        },
+        {
+          "label": "\"Megoldás megmutatása\" gomb engedélyezése"
+        },
+        {
+          "label": "\"Ellenőrzés\" gomb engedélyezése"
+        },
+        {
+          "label": "Megerősítő párbeszédpanel megjelenítése az \"Ellenőrzés\" gombra kattintáskor"
+        },
+        {
+          "label": "Megerősítő párbeszédpanel megjelenítése az \"Újra próbálkozás\" gombra kattintáskor"
+        },
+        {
+          "label": "A válasz automatikus ellenőrzése",
+          "description": "Vegye figyelembe, hogy ennek engedélyezésével csökken a feladat akadálymentessége"
+        },
+        {
+          "label": "Visszajelzés helyes válasz esetén",
+          "description": "Felülírja az alapértelmezett visszajelző szöveget. Használható változók: @score (pontszám) és @total (összpontszám)"
+        },
+        {
+          "label": "Visszajelzés helytelen válasz esetén",
+          "description": "Felülírja az alapértelmezett visszajelző szöveget. Használható változók: @score (pontszám) és @total (összpontszám)"
+        }
+      ]
+    },
+    {
+      "label": "Ellenőrzés párbeszédpanel",
+      "fields": [
+        {
+          "label": "Fejléc szöveg",
+          "default": "Befejezés?"
+        },
+        {
+          "label": "Szöveges tartalom",
+          "default": "Biztosan be akarod fejezni?"
+        },
+        {
+          "label": "\"Mégsem\" gomb felriata",
+          "default": "Mégsem"
+        },
+        {
+          "label": "Megerősítő gomb felirata",
+          "default": "Befejezés"
+        }
+      ]
+    },
+    {
+      "label": "Újra próbálkozás párbeszédpanel",
+      "fields": [
+        {
+          "label": "Fejléc szöveg",
+          "default": "Újra?"
+        },
+        {
+          "label": "Szöveges rész",
+          "default": "Biztosan újra szeretnéd kezdeni?"
+        },
+        {
+          "label": "\"Mégsem\" gomb felirata",
+          "default": "Mégsem"
+        },
+        {
+          "label": "Megerősítő gomb felirata",
+          "default": "Megerősít"
+        }
+      ]
+    }
+  ]
+}
