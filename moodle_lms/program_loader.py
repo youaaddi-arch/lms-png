@@ -80,18 +80,54 @@ def _build_summary(data: dict[str, Any]) -> str:
     return "\n".join(parts)
 
 
+def _block_style(title: str) -> tuple[str, str, str]:
+    """Retourne (emoji, couleur de bord, fond) selon le type de bloc."""
+    t = title.lower()
+    table = [
+        (("accroche", "objectif"), ("🎯", "#4361ee", "#eef2ff")),
+        (("mise en situation", "storytelling"), ("🎬", "#7209b7", "#f6edff")),
+        (("cas pratique", "atelier"), ("🧩", "#3a86ff", "#e9f2ff")),
+        (("exemple",), ("💡", "#f4a261", "#fff6ec")),
+        (("exercice", "mission", "défi", "application", "test"), ("✍️", "#2a9d8f", "#e9f7f4")),
+        (("outil", "grille", "checklist", "modèle", "méthode", "catalogue",
+          "trame", "canevas", "protocole", "cartograph", "calendrier"),
+         ("🛠️", "#6c757d", "#f3f4f6")),
+        (("à retenir", "synthèse", "récapitulatif"), ("✅", "#2b9348", "#eaf7ec")),
+        (("erreur", "vigilance", "piège"), ("⚠️", "#e63946", "#fdecec")),
+        (("pour aller plus loin", "ressource"), ("🔗", "#0077b6", "#e7f5fb")),
+    ]
+    for keys, style in table:
+        if any(k in t for k in keys):
+            return style
+    return ("📌", "#4361ee", "#f5f7ff")
+
+
 def _module_html(mod: dict[str, Any]) -> str:
-    """Construit le HTML d'un module à partir de ses blocs/puces."""
+    """Construit le HTML du module : chaque bloc devient un encadré stylé."""
     parts: list[str] = []
     if mod.get("intro"):
-        parts.append(f"<p>{_esc(mod['intro'])}</p>")
+        parts.append(
+            "<p style=\"font-size:1.05em;font-style:italic;color:#333;"
+            f"border-left:4px solid #4361ee;padding-left:.8em\">{_esc(mod['intro'])}</p>"
+        )
     for block in mod.get("blocks", []):
-        if block.get("title"):
-            parts.append(f"<h5>{_esc(block['title'])}</h5>")
-        if block.get("bullets"):
-            parts.append(_bullets_html(block["bullets"]))
+        title = block.get("title", "")
+        emoji, border, bg = _block_style(title)
+        inner: list[str] = []
+        if title:
+            inner.append(
+                f"<h4 style=\"margin:0 0 .4em;color:{border}\">{emoji} {_esc(title)}</h4>"
+            )
         if block.get("text"):
-            parts.append(f"<p>{_esc(block['text'])}</p>")
+            inner.append(f"<p style=\"margin:.2em 0\">{_esc(block['text'])}</p>")
+        if block.get("bullets"):
+            inner.append(_bullets_html(block["bullets"]))
+        parts.append(
+            f"<div style=\"border-left:5px solid {border};background:{bg};"
+            "padding:.7em 1em;margin:.9em 0;border-radius:8px\">"
+            + "\n".join(inner)
+            + "</div>"
+        )
     return "\n".join(parts)
 
 
