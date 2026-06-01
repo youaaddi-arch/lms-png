@@ -21,6 +21,8 @@ Types supportés :
   :func:`write_dialogcards`.
 * ``H5P.QuestionSet`` contenant des ``H5P.MultiChoice`` et ``H5P.TrueFalse``
   (quiz gamifié avec score) via :func:`write_questionset`.
+* ``H5P.DragText`` — texte à trous (glisser-déposer les mots manquants) via
+  :func:`write_dragtext`.
 
 Le cache de librairies a été constitué à partir de paquets ``.h5p`` officiels
 (dialog-cards, multiple-choice) et de dépôts github.com/h5p (question-set
@@ -44,6 +46,7 @@ _DIALOGCARDS_MAIN = ("H5P.Dialogcards", 1, 7)
 _QUESTIONSET_MAIN = ("H5P.QuestionSet", 1, 20)
 _MULTICHOICE = ("H5P.MultiChoice", 1, 16)
 _TRUEFALSE = ("H5P.TrueFalse", 1, 8)
+_DRAGTEXT_MAIN = ("H5P.DragText", 1, 10)
 
 
 # --------------------------------------------------------------------------
@@ -427,3 +430,76 @@ def write_questionset(
     return _write_h5p_archive(
         out_path, title, machine, content, extra_machines=extra
     )
+
+
+# --------------------------------------------------------------------------
+# DragText (texte à trous : glisser-déposer les mots manquants)
+# --------------------------------------------------------------------------
+def write_dragtext(
+    title: str, tasks: list[str], out_path: str | Path
+) -> Path:
+    """Génère un ``.h5p`` de type *Drag the Words* (texte à trous).
+
+    Chaque élément de ``tasks`` est une phrase où les mots à retrouver sont
+    entourés d'astérisques selon la SYNTAXE H5P DragText. Les mots ainsi
+    marqués deviennent des étiquettes à glisser dans les emplacements
+    correspondants. On peut associer un indice à un mot avec ``:`` à
+    l'intérieur des astérisques.
+
+    Exemples de syntaxe (à l'intérieur de ``tasks``) ::
+
+        "La *diversité* désigne la présence de profils variés."
+        "L'*inclusion:permet à chacun de contribuer* est essentielle."
+
+    Les phrases sont concaténées dans le champ ``textField`` en les séparant
+    par des retours à la ligne (chaque phrase = une ligne de l'énoncé).
+
+    :param title: titre du contenu.
+    :param tasks: liste de phrases contenant les mots à trouver entre
+        astérisques.
+    :param out_path: chemin du fichier ``.h5p`` à écrire.
+    :return: le chemin du fichier généré.
+    """
+    # Concatène les phrases : une par ligne. La syntaxe ``*mot*`` est
+    # conservée telle quelle (c'est elle qui définit les zones de dépôt).
+    text_field = "\n".join((t or "").strip() for t in tasks if (t or "").strip())
+
+    content = {
+        "taskDescription": "<p>Glissez les mots manquants dans les bonnes cases.</p>\n",
+        "textField": text_field,
+        "overallFeedback": [
+            {"from": 0, "to": 100, "feedback": "Score : @score sur @total."}
+        ],
+        "behaviour": {
+            "enableRetry": True,
+            "enableSolutionsButton": True,
+            "enableCheckButton": True,
+            "instantFeedback": False,
+        },
+        "media": {"disableImageZooming": False},
+        # Libellés d'interface en français.
+        "checkAnswer": "Vérifier",
+        "submitAnswer": "Soumettre",
+        "tryAgain": "Recommencer",
+        "showSolution": "Voir la solution",
+        "dropZoneIndex": "Zone de dépôt @index.",
+        "empty": "La zone de dépôt @index est vide.",
+        "contains": "La zone de dépôt @index contient l'étiquette @draggable.",
+        "ariaDraggableIndex": "@index sur @count étiquettes.",
+        "tipLabel": "Afficher l'indice",
+        "correctText": "Correct !",
+        "incorrectText": "Incorrect !",
+        "resetDropTitle": "Réinitialiser le dépôt",
+        "resetDropDescription": "Voulez-vous vraiment réinitialiser cette zone de dépôt ?",
+        "grabbed": "Étiquette saisie.",
+        "cancelledDragging": "Déplacement annulé.",
+        "correctAnswer": "Bonne réponse :",
+        "feedbackHeader": "Retour",
+        "scoreBarLabel": "Vous avez :num sur :total points",
+        "a11yCheck": "Vérifier les réponses. Les réponses seront marquées comme correctes, incorrectes ou sans réponse.",
+        "a11yShowSolution": "Afficher la solution. La tâche sera marquée avec sa solution correcte.",
+        "a11yRetry": "Recommencer la tâche. Réinitialise toutes les réponses et recommence la tâche.",
+    }
+
+    machine, _major, _minor = _DRAGTEXT_MAIN
+    return _write_h5p_archive(out_path, title, machine, content)
