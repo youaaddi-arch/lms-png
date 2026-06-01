@@ -15,7 +15,7 @@ programmes/*.docx
 programmes/*.doc
 
 # Fragments de contenu intermédiaires (fusionnés dans le programme final)
-programmes/_frag_*.json
+programmes/_frag*.json
 
 # Sorties
 out/
